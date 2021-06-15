@@ -1,0 +1,51 @@
+body {
+    margin:0px;
+    background:linear-gradient(lightblue 0%, darkblue 100% );
+}
+
+h1 {
+    text-shadow:2px;
+    font-size:20px;
+}
+#welcome {
+    padding:20px;
+    font-size:18;
+}
+#hobby {
+    padding: 20px;
+    font-size:18;
+    text-align:center
+}
+.menu {
+    font-family: 'Indie Flower', cursive;
+    position : fixed;
+    top : 0px;
+    z-index:10;
+    cursor:crosshair;
+    background-color: darkblue;
+    width:100%;
+}
+
+.links {
+    display:inline;
+    float:left;
+    color:blue;
+    padding-right:25px;
+    padding-left:35px;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+}
+
+.links:hover {
+    background-color:green; 
+}
+.imglink:hover {
+    transform: scale(1.1, 1.1);
+    background-color: pink;
+}
+.contact_1 a {
+    
+    text-shadow:none;
+    color:blue;
+}
+    
